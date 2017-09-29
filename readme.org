@@ -1,0 +1,10 @@
+* Spacemacs Customization for dvorak keyboard
+
+put the contents of this repo in a directory named dvorak in your private
+directory of .emacs.d
+
+add (keyboard-layout :variables kl-layout 'dvorak)
+to your .spacemacs dotspacemacs-configuration-layers list
+
+This code is adapted from Fabien Dubosson's dvorak/bepo work for spacemacs
+(mostly moving the movement keys right under home position)
